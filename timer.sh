@@ -1,3 +1,3 @@
 #/bin/sh
 
-while true; do ./is.sh; sleep 5; done
+while true; do ./is.sh; sleep 15m; done
