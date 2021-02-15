@@ -5,6 +5,7 @@ echo "Programa iniciado!";
 vibrate(){
   for ((i = 0 ; i < $1 ; i++)); do
     termux-vibrate -fd 1500;
+    sleep 2;
   done
 }
 
