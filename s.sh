@@ -1,2 +1,2 @@
 #/bin/sh
-./timer.sh 15m
+./timer.sh 1m
