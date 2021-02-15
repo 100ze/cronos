@@ -5,7 +5,7 @@ echo "Programa iniciado!";
 vibrate(){
   for ((i = 0 ; i < $1 ; i++)); do
     termux-vibrate -fd 1500;
-    sleep 2;
+    sleep 1;
   done
 }
 
@@ -14,7 +14,7 @@ timer(){
   mesage="";
 
   # for debug
-  #minutes=$1
+  minutes=$1
 
   if [[ $minutes -eq 15 ]]; then
     vibrate 1;
