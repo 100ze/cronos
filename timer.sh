@@ -14,7 +14,7 @@ timer(){
   mesage="";
 
   # for debug
-  #minutes=$1
+  minutes=$1
 
   if [[ $minutes -eq 15 ]]; then
     vibrate 1;
